@@ -28,7 +28,7 @@ void pick(int n, vector<int>& picked, int toPick) {
 }
 
 int main() {
-    int n = 7;      // 0~4까지 원소
+    int n = 7;     
     int toPick = 4;  // 뽑을 갯수
     vector<int> picked;
     pick(n, picked, toPick);
